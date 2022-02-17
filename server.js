@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express');
 const app = express();
 const fruits = require('./models/fruits'); // importing fruits from wherever it is
